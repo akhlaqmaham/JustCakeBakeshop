@@ -1,0 +1,501 @@
+body {
+    background-image: url('pink.jpg');
+}
+.navbar-text {
+    margin-right: 50px;
+}
+.nav-item a {
+    color: #AF5978 !important;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-size: 20px;
+}
+#drop {
+    padding-left: 25px;
+}
+.dropdown-menu a:hover {
+    background-color: #c49594 !important;
+    color: whitesmoke !important;
+    text-decoration: none;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-size: 17px;
+    font-style: italic;
+}
+#hover:hover {
+    color: #873352!important;
+    text-decoration: none;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 600;
+}
+#active {
+    color: #873352 !important;
+    text-decoration: none;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+#nav {
+    background-color: white !important;
+    color: #873352 !important;
+}
+.outline {
+    background-color: #AF5978;
+    height: 2px;
+}
+#out {
+    margin-top: 15px;
+}
+.divv {
+    background-color: #f8f9fa;
+    height: 4px;
+}
+.div1 {
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;  
+}
+@media screen and (max-width: 600px ) {
+    .div1 {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+    }
+}
+
+.intro {
+    height: 10px;
+    background-color: #ffd3e0;
+}
+#wed {
+    background-color: white !important;
+}
+#hey {
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.para {
+    padding-top: 20px;
+    color: #A6A6A6;
+    font-family: 'PT SERIF';
+    src: url('PTSerif-Italic.ttf');
+    font-style: italic;
+}
+#hey .ab {
+    color: #c49594;
+}
+#hey h4 {
+    color: #c49594;
+    font-family: 'PT SERIF';
+    src: url('PTSerif-Regular.ttf');
+}
+#wed img:hover {
+    opacity: 0.7;
+}
+.card img:hover {
+    opacity: 0.7;
+}
+@media screen and (max-width: 600px) {
+    #hey,#im {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+.card {
+    margin: 10px;
+}
+@media screen and (max-width: 600px ) {
+    .card {
+        width: 250px;
+        height: fit-content;
+        margin: 10px auto 10px auto;
+    }
+}
+.card-title {
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    color: #873352;
+    font-style: italic;
+    font-size: 22px;
+
+}
+.card-text {
+    color: #5A3030;
+    font-style: italic;
+}
+.card-body a {
+    background-color: #963d5e !important;
+    color: #f8f9fa !important;
+    font-style: italic;
+}
+.card-body a:hover {
+    background-color: #AF5978!important;
+    color: #f8f9fa !important;
+    font-style: italic;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+}
+#mes {
+    background-color: #963d5e !important;
+    color: #f8f9fa !important;
+    font-style: italic;
+    margin-top: 30px;
+}
+#mes:hover {
+    background-color: #AF5978!important;
+    color: #f8f9fa !important;
+    font-style: italic;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+}
+.h {
+    margin-top: 30px;
+    color: #873352;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-weight: 600;
+    font-size: 50px;
+}
+.c {
+    margin-top: 10px;
+    background-color: #AF5978;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: whitesmoke;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-style: italic;
+}
+.cup {
+    margin-top: 10px;
+    background-color: #AF5978;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: whitesmoke;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-style: italic;
+}
+#sub {
+    margin-top: 20px;
+}
+.sub1 h2, .reg {
+    color: #AF5978;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+}
+.sub2 {
+    background-color: #AF5978;
+    height: 245px;
+    padding-top: 1px;
+}
+.best {
+    background-color: white;
+    height: 235px;
+    margin: 3px 5px 3px 5px;
+}
+.best img {
+    margin: 10px 5px 5px 7px;
+}
+.best p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sub3 {
+    background-color: white;
+    height: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.order {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    color: #AF5978;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 55px;
+}
+#truck {
+    font-size: 75px;
+    margin-top: 40px;
+    color: #c49594;
+}
+.g {
+    color: #AF5978;
+    font-style: bold;
+}
+.pick {
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    color: #873352;
+    font-style: italic;
+}
+.og {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    color: #873352;
+    font-style: italic;
+}
+.or {
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    color: #AF5978;
+    font-style: italic;
+    font-weight: 600;
+}
+#subdiv2 {
+    background-color: #ffd3e0;
+    margin-top: 13px;
+
+}
+.ab {
+    text-align: center;
+    color: #873352;
+    font-weight: 600;
+}
+.text-left {
+    margin: auto 60px auto 60px;
+    padding-bottom: 20px;
+    font-family:"DancingScript";
+    src: url('DancingScript-Medium.ttf'); 
+    color: #878282;
+    font-size: 18px;
+    font-style: italic;
+
+}
+.marq {
+    background-color: #AF5978;
+    margin: 70px auto 20px auto;
+    height: 80px;
+    color: honeydew;
+    font-size: 45px;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+}
+.footer {
+    background-color: #c49594;
+    height: 15px;
+}
+#main {
+    background-color: #c49594 !important;
+}
+.newitem {
+    margin-bottom: 30px;
+}
+.insta {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pin {
+    padding-left: 10px;
+}
+#icon {
+    font-size: 25px !important;
+    padding-top: 10px;
+    color: #3C3939;
+}
+.line {
+    background-color: #873352;
+    height: 2px;
+}
+.just {
+    padding-top: 25px;
+    font-family: 'Satisfy';
+    src: url('Satisfy-Regular');
+    font-style: italic;
+    font-size: 60px;
+    color: #712C54;
+    /* padding-left: 25px; */
+}
+.p {
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    font-size: 25px;
+    align-items: center;
+    color: #712C54;
+    position: relative;
+    bottom: 12px;
+}
+.navbar-brand h2 {
+    padding-top: 10px;
+    font-family: 'Satisfy';
+    src: url('Satisfy-Regular');
+    font-style: italic;
+    font-size: 45px !important;
+    color: #873352 !important;
+    padding-left: 40px;
+}
+.navbar-brand h3 {
+    padding-left: 60px;
+    font-style: italic;
+    font-size: 20px !important;
+    color: #c49594 !important;
+    position: relative;
+    bottom: 15px;
+    font-weight: 600;
+}
+.use {
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-style: italic;
+    font-size: 17px;
+    color: #3C3939;
+}
+#bakery h3 {
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#bakery p {
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-style: italic;
+    font-size: 17px;
+    color: #3C3939;
+}
+#bakery ul {
+    padding-left: 10px;
+}
+#bakery li {
+    list-style: none;
+    display: inline;
+}
+.regul {
+    margin-top: 30px;
+}
+#marg {
+    margin-top: 60px;
+}
+#name {
+    font-size: 19px;
+}
+#ab {
+    margin-bottom: 50px;
+}
+.for {
+    margin-bottom: 20px;
+}
+.contact {
+    margin-bottom: 30px;
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    color: #963d5e;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+}
+.sty {
+    color: #f78eae;
+    font-size: 25px;
+}
+#contac {
+    padding-top: 20px;
+}
+.greyline {
+    color: #A6A6A6;
+}
+#nam {
+    margin-top: 15px;
+}
+#details li {
+    list-style: none;
+    display: inline;
+}
+#details ul {
+    padding-left: 5px;
+}
+@media screen and (max-width: 600px) {
+    .btn {
+        margin-bottom: 30px;
+    }
+}
+.colr {
+    color: #f87ba0;
+    font-weight: 600;
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+}
+.write {
+    color: #878282;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-style: italic;
+    font-size: 18px;                                                                                                                                                                                                                                                                                                                        
+}
+#ic {
+    color: #777373 ;
+}
+.for {
+    width: 451px;
+    color: #878282;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-style: italic;
+    font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+    .for {
+       width: 370px;
+    }
+}
+#lineth {
+    text-decoration: line-through;
+    padding-right: 10px;
+}
+#disco {
+    padding-top: 30px;
+}
+.log {
+    margin-bottom: 30px;
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    color: #d34670;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+}
+.log:hover {
+    text-decoration: none;
+    color: #f78eae;
+}
+#act {
+    color: #e66d91 !important;
+    text-decoration: none;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+}
+.place {
+    color: #878282;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-style: italic;
+    font-size: 18px;
+}
+#login {
+    padding-top: 20px;
+}
+#tex {
+    padding-top: 18px;
+}
+#o {
+    margin-top: 12px;
+}
