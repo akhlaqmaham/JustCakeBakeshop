@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <script src="indexCart.js" async></script>
+    <script src="regularCart.js" async></script>
+    <script src="weddingCart.js" async></script>
+    <script src="birthdayCart.js" async></script>
+    <script src="cupcakeCart.js" async></script>
+    <script src="dealsCart.js" async></script>
+</head>
+
+<body>
+    <div class="outline"></div>
+    <div class="divv"></div>
+    <div class="outline"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+        <a class="navbar-brand" href="#">
+            <h2>just cakes</h2>
+            <h3>BAKESHOP</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <span class="navbar-text">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" id="hover">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" id="hover">
+                            CAKES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="regular.html">REGULAR CAKES</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="drop" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                SPECIAL OCCASIONAL CAKES
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="wedding.html">WEDDING CAKES</a>
+                                <a class="dropdown-item" href="birthday.html">BIRTHDAY CAKES</a>
+                            </div>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="cupcake.html" id="hover">CUPCAKES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="deals.html" id="hover"> DISCOUNTED DEALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" id="hover">CONTACT US</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </nav>
+    <div class="outline"></div>
+    <div class="divv"></div>
+    <div class="outline"></div>
+    <div class="div1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8" id="subdiv1">
+                    <p class="b">______________________________________________________</p>
+                    <h2 class="reg" id="shipping">Getting your order</h2>
+                    <p class="b">______________________________________________________</p>
+                    <p class="det">Shipping Details</p>
+                    <div class="container" id="shippingform">
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <input type="text" class="place" id="fn" placeholder="First Name" maxlength="30"
+                                        size="30px" required>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <input type="text" class="place" id="ln" placeholder="Last Name" maxlength="30"
+                                        size="30px" required>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <textarea name="message" rows="3" cols="31" placeholder="Address" class="place"
+                                        id="message" required></textarea>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <input type="text" class="place" placeholder="Apartment,suite, etc. (optional) "
+                                        maxlength="30" size="30px">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <input type="text" class="place" placeholder="City" maxlength="30" size="30px"
+                                        required>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <input type="text" class="place" placeholder="Postal Code" maxlength="10"
+                                        size="30px" required>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="det" id="person">Personal Details</p>
+                    <div class="container" id="shippingform">
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <input type="text" class="place" placeholder="City" maxlength="30" size="30px"
+                                        required>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <input type="text" class="place" placeholder="Phone (optional)" maxlength="20"
+                                        size="30px">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="det" id="person">Payment Method</p>
+                    <div class="container" id="shippingform">
+                        <div class="row">
+                            <div class="col">
+                                <form>
+                                    <input type="radio" class="place" name="payment">
+                                    <label for="cod">Cash On Delivery(COD)</label><br>
+                                    <input type="radio" class="place" name="payment">
+                                    <label for="credit-card">Credit Card</label><br>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="return">
+                        <button class="btn btn-outline-secondary"><i class="fas fa-backward"><a href="cart.html">  Return
+                                    to Cart</a></i></button>
+                    </div>
+                </div>
+                <div class="col-sm-4" align="center">
+                    <div class="content">
+                        <h1 class="summ">Order Summary</h1>
+                        <p class="subtotal">________________________________________</p>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="text" placeholder="Gift card or discount card"
+                                id="appl">
+                            <button class="btn btn-outline-secondary" id="apply" type="submit">APPLY</button>
+                        </form>
+                        <p class="subtotal">________________________________________</p>
+                        <div class="container">
+                            <div class="row" id="ship">
+                                <div class="col">
+                                    Subtotal
+                                </div>
+                                <div class="col" id="carttotal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row" id="ship">
+                                <div class="col">
+                                    Shipping
+                                </div>
+                                <div class="col">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                        <p class="subtotal">________________________________________</p>
+                        <div class="container">
+                            <div class="row" id="ship">
+                                <div class="col">
+                                    Total
+                                </div>
+                                <div class="col" id="display">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

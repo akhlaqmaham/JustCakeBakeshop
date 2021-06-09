@@ -9,9 +9,29 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <script src="birthdayCart.js" async></script>
+    
 </head>
 
 <body>
+    <div class="container-fluid" id="bar">
+        <!-- cart div -->
+        <div class="row row-cols-4">
+            <div class="col" align="center">
+                <p>Phone</p>
+            </div>
+            <div class="col"></div>
+            <div class="col"  align="center" id="cartNum">
+                <a href="log.html"><i class="fas fa-user-circle" id="cart"></i><span> Login </span></a>
+            </div>
+            
+            <div class="col"  align="center" id="cartNum">
+                <a href="cart.html"><i class="fas fa-shopping-cart" id="cart"></i><span> Cart </span><sup>0</sup></a>
+            </div>
+        </div>
+        
+    </div>
+    
     <div class="outline"></div>
     <div class="divv"></div>
     <div class="outline"></div>
@@ -78,41 +98,41 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card">
-                            <img src="makeup.jpg" class="card-img-top" alt="...">
+                            <img src="butfirstmakeupcake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">But First, Makeup</h5>
+                                <h5 class="card-title">But First, Makeup Cake</h5>
                                 <p class="card-text">Rs.5000</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card">
-                            <img src="minnie.jpg" class="card-img-top" alt="...">
+                            <img src="simperingminniecake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Simpering Minnie </h5>
+                                <h5 class="card-title">Simpering Minnie Cake</h5>
                                 <p class="card-text">Rs.4000</p>
-                                <a href="log.html" class="btn ">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card" id="cards">
-                            <img src="disney.jpg" class="card-img-top" alt="...">
+                            <img src="sliceofdisneylandcake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Slice Of Disneyland </h5>
+                                <h5 class="card-title">Slice Of Disneyland Cake</h5>
                                 <p class="card-text">Rs.2500</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card" id="cards">
-                            <img src="pinkcake.jpg" class="card-img-top" alt="...">
+                            <img src="thepinkabodecake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">The Pink Abode </h5>
+                                <h5 class="card-title">The Pink Abode Cake</h5>
                                 <p class="card-text">Rs.4000</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
@@ -123,41 +143,41 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card" id="cards">
-                            <img src="car.jpg" class="card-img-top" alt="...">
+                            <img src="mcqueenracercake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">McQueen Racer</h5>
+                                <h5 class="card-title">McQueen Racer Cake</h5>
                                 <p class="card-text">Rs.5500</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card" id="cards">
-                            <img src="pubg.jpg" class="card-img-top" alt="...">
+                            <img src="pubgcrazecake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">PUBG Craze </h5>
+                                <h5 class="card-title">PUBG Craze Cake</h5>
                                 <p class="card-text">Rs4500</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card" id="cards">
-                            <img src="spid.jpg" class="card-img-top" alt="...">
+                            <img src="spidermanthemecake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Spiderman Theme</h5>
+                                <h5 class="card-title">Spiderman Theme Cake</h5>
                                 <p class="card-text">Rs.4000</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card" id="cards">
-                            <img src="batman.jpg" class="card-img-top" alt="...">
+                            <img src="batmandelightcake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Batman's delight </h5>
+                                <h5 class="card-title">Batman delight Cake</h5>
                                 <p class="card-text">Rs.4000</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>

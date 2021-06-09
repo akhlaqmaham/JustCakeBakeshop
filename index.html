@@ -8,9 +8,29 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" >
+    <script src="indexCart.js" async></script>
 </head>
 
 <body>
+    <div class="container-fluid" id="bar">
+        <!-- cart div -->
+        <div class="row row-cols-4">
+            <div class="col" align="center">
+                <p>Phone</p>
+            </div>
+            <div class="col"></div>
+            <div class="col"  align="center" id="cartNum">
+                <a href="log.html"><i class="fas fa-user-circle" id="cart"></i><span> Login </span></a>
+            </div>
+            
+            <div class="col"  align="center" id="cartNum">
+                <a href="cart.html"><i class="fas fa-shopping-cart" id="cart" ></i><span> Cart </span><sup>0</sup></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Nav bar -->
     <div class="outline" id="out"></div>
     <div class="divv"></div>
     <div class="outline"></div>
@@ -57,6 +77,8 @@
             </span>
         </div>
     </nav>
+
+    <!-- carousel -->
     <div class="outline"></div>
     <div class="divv"></div>
     <div class="outline"></div>
@@ -191,6 +213,9 @@
                 </div>
             </div>
         </div>
+
+        
+        <!-- new items -->
         <p class="ab">____________________________________________________________</p>
         <h1 align="center" class="h">NEW ITEMS</h1>
         <p class="ab">____________________________________________________________</p>
@@ -200,31 +225,31 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card">
-                            <img src="ferrero.jpg" class="card-img-top" alt="...">
+                            <img src="ferrerorocher.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Ferrero Rocher</h5>
                                 <p class="card-text">Rs.1250</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add"  class="btn btn-outline-secondary add-btn update-cart"><a href="log.html">Add to cart</a></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card">
-                            <img src="lemon.jpg" class="card-img-top" alt="...">
+                            <img src="lemoncheese.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Lemon Cheese</h5>
                                 <p class="card-text" ><span id="lineth">Rs.1300</span>Rs.1000</p>
-                                <a href="log.html" class="btn ">Add to Cart</a>
+                                <button data-action="add"  class="btn btn-outline-secondary add-btn update-cart"><a href="log.html">Add to cart</a></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card" id="cards">
-                            <img src="choc.jpg" class="card-img-top" alt="...">
+                            <img src="chocolatemousse.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Chocolate Mousse</h5>
                                 <p class="card-text">Rs.1450</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add"  class="btn btn-outline-secondary add-btn update-cart"><a href="log.html">Add to cart</a></button>
                             </div>
                         </div>
                     </div>
@@ -234,7 +259,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Coffee</h5>
                                 <p class="card-text">Rs.1100</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add"  class="btn btn-outline-secondary add-btn update-cart"><a href="log.html">Add to cart</a></button>
                             </div>
                         </div>
                     </div>
@@ -249,17 +274,17 @@
                             <div class="card-body">
                                 <h5 class="card-title">Oreo</h5>
                                 <p class="card-text"><span id="lineth">Rs.200</span>Rs.120</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add"  class="btn btn-outline-secondary add-btn update-cart"><a href="log.html">Add to cart</a></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card" id="cards">
-                            <img src="lotus.jpg" class="card-img-top" alt="...">
+                            <img src="lotusbiscoff.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Lotus Biscoff</h5>
                                 <p class="card-text">Rs.150</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add"  class="btn btn-outline-secondary add-btn update-cart"><a href="log.html">Add to cart</a></button>
                             </div>
                         </div>
                     </div>
@@ -269,23 +294,24 @@
                             <div class="card-body">
                                 <h5 class="card-title">Lite Coffee</h5>
                                 <p class="card-text">Rs.120</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add"  class="btn btn-outline-secondary add-btn update-cart"><a href="log.html">Add to cart</a></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card" id="cards">
-                            <img src="ferrcup.jpg" class="card-img-top" alt="...">
+                            <img src="ferrerorochercupcake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Ferrero Rocher</h5>
+                                <h5 class="card-title">Ferrero Rocher Cupcake</h5>
                                 <p class="card-text">Rs.150</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add"  class="btn btn-outline-secondary add-btn update-cart"><a href="log.html">Add to cart</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- footer -->
         <div class="footer"></div>
         <div class="line"></div>
         <div class="container-fluid" id="main">
@@ -327,3 +353,4 @@
 </body>
 
 </html>
+

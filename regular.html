@@ -8,9 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <script src="regularCart.js" async></script>
 </head>
 
 <body>
+    <div class="container-fluid" id="bar">
+        <!-- cart div -->
+        <div class="row row-cols-4">
+            <div class="col" align="center">
+                <p>Phone</p>
+            </div>
+            <div class="col"></div>
+            <div class="col"  align="center" id="cartNum">
+                <a href="log.html"><i class="fas fa-user-circle" id="cart"></i><span> Login </span></a>
+            </div>
+            
+            <div class="col"  align="center" id="cartNum">
+                <a href="cart.html"><i class="fas fa-shopping-cart" id="cart"></i><span> Cart </span><sup>0</sup></a>
+            </div>
+        </div>
+        
+    </div>
     <div class="outline"></div>
     <div class="divv"></div>
     <div class="outline"></div>
@@ -76,31 +94,31 @@
                 <div class="row">
                     <div class="col-sm">
                         <div class="card">
-                            <img src="belg.jpg" class="card-img-top" alt="...">
+                            <img src="belgiancake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" id="name">BELGIAN CAKE</h5>
                                 <p class="card-text">Rs.1250</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm">
                         <div class="card">
-                            <img src="red.jpg" class="card-img-top" alt="...">
+                            <img src="redvelvetcake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" id="name">RED VELVET CAKE</h5>
                                 <p class="card-text">Rs.1300</p>
-                                <a href="log.html" class="btn ">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm">
                         <div class="card" id="cards">
-                            <img src="mal.jpg" class="card-img-top" alt="...">
+                            <img src="milkymaltcake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" id="name">MILKY MALT CAKE</h5>
                                 <p class="card-text" ><span id="lineth">Rs.1450</span>Rs.1100</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
@@ -108,31 +126,31 @@
                 <div class="row">
                     <div class="col-sm">
                         <div class="card" id="cards">
-                            <img src="gal.jpg" class="card-img-top" alt="...">
+                            <img src="germanfudgecake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" id="name">GERMAN FUDGE CAKE</h5>
                                 <p class="card-text">Rs.1100</p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm">
                         <div class="card">
-                            <img src="carr.jpg" class="card-img-top" alt="...">
+                            <img src="carrotnutcake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" id="name">CARROT NUT CAKE</h5>
                                 <p class="card-text"><span id="lineth">Rs.1250</span>Rs.1000</span></p>
-                                <a href="log.html" class="btn">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm">
                         <div class="card">
-                            <img src="malt.jpg" class="card-img-top" alt="...">
+                            <img src="maltesercake.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" id="name">MALTESER CAKE</h5>
                                 <p class="card-text">Rs.1300</p>
-                                <a href="log.html" class="btn ">Add to Cart</a>
+                                <button data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                             </div>
                         </div>
                     </div>

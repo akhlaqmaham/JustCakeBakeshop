@@ -48,8 +48,29 @@ body {
     background-color: #AF5978;
     height: 2px;
 }
-#out {
-    margin-top: 15px;
+#barr {
+    margin-top: 35px;
+    padding-top: 10px;
+    background-color: #e78bb0;
+}
+#bar {
+    margin-top: 35px;
+    padding-bottom: 10px;
+    background-color: #e78bb0;
+}
+#cart {
+    /* margin-left: 500px; */
+    margin-top: 10px;
+    font-size: 27px;
+}
+#barr a {
+    text-decoration: none;
+    color: #712C54;
+}
+#bar a {
+    text-decoration: none;
+    color: #712C54;
+    /* padding-right: 20px; */
 }
 .divv {
     background-color: #f8f9fa;
@@ -131,16 +152,34 @@ body {
     font-style: italic;
 }
 .card-body a {
+    text-decoration: none !important;
+    color: #f8f9fa !important;
+}
+.card-body button {
     background-color: #963d5e !important;
     color: #f8f9fa !important;
     font-style: italic;
 }
-.card-body a:hover {
+.card-body button:hover {
     background-color: #AF5978!important;
     color: #f8f9fa !important;
     font-style: italic;
     font-family:"DancingScript";
     src: url('DancingScript-Regular.ttf');
+}
+
+#cartNum sup {
+    background-color: #963d5e !important;
+    color: #f8f9fa !important;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+    right: 4px;
+    font-size: 15px;
+    
 }
 #mes {
     background-color: #963d5e !important;
@@ -268,6 +307,11 @@ body {
     color: #873352;
     font-weight: 600;
 }
+.b {
+    color: #873352;
+    font-weight: 600;
+    padding-left: 30px;
+}
 .text-left {
     margin: auto 60px auto 60px;
     padding-bottom: 20px;
@@ -332,7 +376,6 @@ body {
     bottom: 12px;
 }
 .navbar-brand h2 {
-    padding-top: 10px;
     font-family: 'Satisfy';
     src: url('Satisfy-Regular');
     font-style: italic;
@@ -346,7 +389,21 @@ body {
     font-size: 20px !important;
     color: #c49594 !important;
     position: relative;
-    bottom: 15px;
+    bottom: 10px;
+    font-weight: 600;
+}
+.heading{
+    font-family: 'Satisfy';
+    src: url('Satisfy-Regular');
+    font-style: italic;
+    color: #873352 !important;
+    padding-left: 40px;
+    font-size: 25px;
+}
+.heading span {
+    padding-left: 60px;
+    font-style: italic;
+    color: #873352 !important;
     font-weight: 600;
 }
 .use {
@@ -449,7 +506,7 @@ body {
     font-style: italic;
     font-size: 18px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 577px) {
     .for {
        width: 370px;
     }
@@ -498,4 +555,218 @@ body {
 }
 #o {
     margin-top: 12px;
+}
+
+/* CART PAGE */
+.cart-page {
+    background-color: #f8f9fa;
+}
+.products-container {
+    max-width: 650PX;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: #f8f9fa;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid rgb(153, 144, 144);
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.product {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(153, 144, 144);
+}
+
+/* images */
+
+
+.products-container i {
+    font-size: 25px;
+    color: #963d5e;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+
+}
+.products-container img {
+    width: 40%;
+}
+.product span {
+    padding-left: 10px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.basketTotalTitle {
+    width: 30%;
+}
+
+.basketTotal {
+    width: 10%;
+}
+
+.removeAll {
+    display: flex;
+    justify-content: flex-start;
+    color: #f8f9fa;
+    background-color: #963d5e;
+    font-style: italic;
+    border-radius: 8px;
+}
+
+.removeAll:hover {
+    background-color: #AF5978;
+    color: #f8f9fa ;
+    font-style: italic;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-size: 17px;
+}
+
+@media(max-width: 500px) {
+    nav h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;;
+    }
+
+    .sm-hide {
+        display: none;;
+    }
+
+    .products,
+    .product-header {
+        justify-content: center;
+    }
+
+    .basketTotalContainer {
+        padding-right: 8%;
+    }
+}
+
+.content {
+    background-color: #c49594;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 500px;
+}
+.summ {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    color: #712C54;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#apply {
+    background-color: #963d5e !important;
+    color: #f8f9fa !important;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+#apply:hover {
+    background-color: #AF5978!important;
+    color: #f8f9fa !important;
+    font-style: italic;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+}
+#appl {
+    margin-left: 25px;
+}
+.subtotal {
+    color: #3C3939;
+    margin-top: 20px;
+}
+#ship {
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+    font-style: italic;
+    font-size: 20px;
+    color: #3C3939;
+}
+#shippingform {
+    margin-left: 20px;
+}
+#shipping {
+    margin-left: 30px;
+}
+.place {
+    margin-top: 10px;
+}
+.det {
+    color: #e66d91 !important;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'PT SERIF';
+    src: url('PTSerif-BoldItalic.ttf');
+    margin-left: 30px;
+    text-decoration: underline;
+}
+#person {
+    margin-top: 15px;
+}
+.return a {
+    text-decoration: none !important;
+    color: #f8f9fa !important;
+}
+.return a:hover {
+    text-decoration: none !important;
+    color: #f8f9fa !important;
+    font-style: italic;
+    font-family:"DancingScript";
+    src: url('DancingScript-Regular.ttf');
+}
+.return button {
+    background-color: #963d5e !important;
+    color: #f8f9fa !important;
+    font-style: italic;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.return button:hover {
+    background-color: #AF5978!important;
+    color: #f8f9fa !important;
 }

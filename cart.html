@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Cake Bakeshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <!-- below ones because they all have cart -->
+    <script src="indexCart.js" async></script> 
+    <script src="regularCart.js" async></script>
+    <script src="weddingCart.js" async></script>
+    <script src="birthdayCart.js" async></script>
+    <script src="cupcakeCart.js" async></script>
+    <script src="dealsCart.js" async></script>
+</head>
+
+<body>
+    <div class="container-fluid" id="barr">
+        <!-- cart div -->
+        <div class="row row-cols-4">
+            <div class="col" align="center">
+                <a href="index.html" class="index"><p class="heading">just cakes <br> BAKESHOP</p></a>
+            </div>
+            <div class="col"></div>
+            <div class="col"  align="center" id="cartNum">
+                <a href="log.html"><i class="fas fa-user-circle" id="cart"></i><span> Login </span></a>
+            </div>
+            
+            <div class="col"  align="center" id="cartNum">
+                <a href="cart.html"><i class="fas fa-shopping-cart" id="cart"></i><span> Cart </span><sup>0</sup></a>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="cart-page">
+        <div class="products-container">
+            <div class="product-header">
+                <h5 class="product-title">PRODUCT</h5>
+                <h5 class="price">PRICE</h5>
+                <h5 class="quantity">QUANTITY</h5>
+                <h5 class="total">TOTAL</h5>
+            </div>
+            <div class="products">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer"></div>
+    <div class="line"></div>
+    <div class="container-fluid" id="main">
+        <div class="row">
+            <div class="col-sm" id="bakery" align="center">
+                <h3>Bakery Hours</h3>
+                <p>Monday-Saturday: 11am-8pm</p>
+                <p>Sunday 12-4pm</p>
+            </div>
+            <div class="col-sm">
+                <h2 class="just" align="center">just cakes </br>
+                    <p class="p">BAKESHOP</p>
+                </h2>
+                <p align="center" class="use"><i class="far fa-copyright"></i>2020 Just Cakes</p>
+            </div>
+            <div class="col-sm" id="bakery" align="center">
+                <h3 align="center">Follow Us</h3>
+                <ul>
+                    <li><i class="fab fa-facebook-f" id="icon"></i></li>
+                    <li class="insta"><i class="fab fa-instagram" id="icon"></i></li>
+                    <li><i class="fab fa-twitter" id="icon"></i></li>
+                    <li class="pin"><i class="fab fa-pinterest-p" id="icon"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
